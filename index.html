@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body class="bg-yellow-50 font-sans">
+    <!-- Header Section -->
+    <header class="flex justify-between items-center p-6 bg-white shadow-md">
+        <div class="flex items-center gap-2">
+            <img src="./icons/logo.png" alt="Penguin Fashion" class="h-8">
+            <h1 class="text-xl font-bold text-gray-700">Penguin <span class="text-green-600">Fashion</span></h1>
+        </div>
+        <nav>
+            <ul class="flex gap-6 text-gray-600">
+                <li><a href="#" class="hover:text-gray-900">Home</a></li>
+                <li><a href="#" class="hover:text-gray-900">Product</a></li>
+                <li><a href="#" class="hover:text-gray-900">About Us</a></li>
+                <li><a href="#" class="hover:text-gray-900">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8 p-10 bg-yellow-50">
+        <div class="flex flex-col justify-center">
+            <h2 class="text-4xl font-bold text-yellow-600">BE THE PENGUINS <br> OF WINTER</h2>
+            <p class="mt-4 text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button class="mt-6 px-6 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700">Buy
+                Now</button>
+        </div>
+        <div class="relative">
+            <img src="./images/model.png" alt="Model" class="w-full rounded-full shadow-lg">
+        </div>
+    </section>
+
+    <!-- Product Sections -->
+    <section class="p-10">
+        <!-- Women Jacket -->
+        <h3 class="text-2xl font-bold text-gray-700 mb-6">Woman Jacket</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Product Card -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="./images/jacket-1.png" alt="Yellow Coat Jacket" class="w-full h-40 object-cover rounded-lg">
+                <h4 class="mt-4 font-bold text-gray-800">Yellow Coat Jacket</h4>
+                <p class="text-sm text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <p class="text-xl font-bold text-yellow-600">$234</p>
+                    <button class="px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700">Buy
+                        Now</button>
+                </div>
+            </div>
+            <!-- Repeat for more product cards -->
+        </div>
+    </section>
+
+    <!-- Men Jacket Section -->
+    <section class="p-10">
+        <h3 class="text-2xl font-bold text-gray-700 mb-6">Man Jacket</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Product Card -->
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <img src="./images/jacket-2.png" alt="Snowboard Jacket Mens"
+                    class="w-full h-40 object-cover rounded-lg">
+                <h4 class="mt-4 font-bold text-gray-800">Snowboard Jacket Mens</h4>
+                <p class="text-sm text-gray-600">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <p class="text-xl font-bold text-yellow-600">$234</p>
+                    <button class="px-4 py-2 bg-green-600 text-white rounded-lg shadow-md hover:bg-green-700">Buy
+                        Now</button>
+                </div>
+            </div>
+            <!-- Repeat for more product cards -->
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="p-10 bg-white">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-6">
+                <div class="flex gap-4 items-center">
+                    <img src="./icons/shopping-cart 1.png" alt="Perfect Fit" class="h-12">
+                    <div>
+                        <h4 class="font-bold text-gray-800">Find the Perfect Fit</h4>
+                        <p class="text-sm text-gray-600">Everybody is different, which is why we offer styles for every
+                            body.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <img src="./images/jacket-4.png" alt="Free Exchanges" class="h-12">
+                    <div>
+                        <h4 class="font-bold text-gray-800">Free Exchanges</h4>
+                        <p class="text-sm text-gray-600">One of the many reasons you can shop with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4 items-center">
+                    <img src="./icons/bg3.png" alt="Contact Seller" class="h-12">
+                    <div>
+                        <h4 class="font-bold text-gray-800">Contact Our Seller</h4>
+                        <p class="text-sm text-gray-600">They are here to help you. That’s quite literally what we pay
+                            them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="./icons/house.png" alt="Illustration" class="w-full max-w-sm">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
